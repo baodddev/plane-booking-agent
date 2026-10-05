@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Môi trường ảo
+.venv/
+venv/
+env/
+
+# API key (khi chạy với LLM thật)
+.env
+.env.*
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+
+# Hệ điều hành
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# File khóa tạm của Word khi đang mở BAO_CAO.docx
+~$*
