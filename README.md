@@ -23,7 +23,6 @@ Book one ticket SGN -> DAD on 2026-10-07, departing before 12:00, price at most 
 | `flight_agent_plan_then_execute.py` | Kiểu **Plan-then-Execute**: model viết cả kế hoạch trong 1 lần gọi → người duyệt → code chạy từng bước. |
 | `flight_agent_hybrid.py` | Kiểu **Hybrid**: lập kế hoạch trước, nếu một bước bị chặn thì chuyển sang ReAct để tự phục hồi. |
 | `flight_agent_failure_mode.py` | 4 **lỗi kinh điển** của agent (vòng lặp vô hạn, bịa dữ liệu, quên mục tiêu, hỏng trạng thái) và cách harness bắt từng lỗi. Có thể bật/tắt harness để so sánh. |
-| `FLOW.md` | Sơ đồ luồng và giải thích từng khối code. |
 | `requirements.txt` | Các thư viện cần cài. |
 
 ## Cài đặt
